@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Easy Recipe</string>
+
+    // Bottom nav values
+    <string name="recipes_fragment">Recipes</string>
+    <string name="favorite_recipes_fragment">Favorites</string>
+    <string name="food_joke_fragment">Joke</string>
+</resources>
