@@ -3,20 +3,20 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_graph"
-    app:startDestination="@id/recipesFragment">
+    app:startDestination="@id/recipes_fragment">
 
     <fragment
-        android:id="@+id/recipesFragment"
+        android:id="@+id/recipes_fragment"
         android:name="com.tpandroid.easyrecipe.RecipesFragment"
         android:label="Recipes"
         tools:layout="@layout/fragment_recipes" />
     <fragment
-        android:id="@+id/favoriteRecipesFragment"
+        android:id="@+id/favorite_recipes_fragment"
         android:name="com.tpandroid.easyrecipe.FavoriteRecipesFragment"
         android:label="Favorites"
         tools:layout="@layout/fragment_favorite_recipes" />
     <fragment
-        android:id="@+id/foodJokeFragment"
+        android:id="@+id/food_joke_fragment"
         android:name="com.tpandroid.easyrecipe.FoodJokeFragment"
         android:label="Food joke"
         tools:layout="@layout/fragment_food_joke" />
