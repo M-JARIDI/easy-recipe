@@ -1,4 +1,4 @@
-package com.tpandroid.easyrecipe
+package com.tpandroid.easyrecipe.ui.fragments.recipes
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment

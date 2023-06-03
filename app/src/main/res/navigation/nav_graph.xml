@@ -7,17 +7,17 @@
 
     <fragment
         android:id="@+id/recipes_fragment"
-        android:name="com.tpandroid.easyrecipe.RecipesFragment"
+        android:name="com.tpandroid.easyrecipe.ui.fragments.recipes.RecipesFragment"
         android:label="Recipes"
         tools:layout="@layout/fragment_recipes" />
     <fragment
         android:id="@+id/favorite_recipes_fragment"
-        android:name="com.tpandroid.easyrecipe.FavoriteRecipesFragment"
+        android:name="com.tpandroid.easyrecipe.ui.fragments.favorites.FavoriteRecipesFragment"
         android:label="Favorites"
         tools:layout="@layout/fragment_favorite_recipes" />
     <fragment
         android:id="@+id/food_joke_fragment"
-        android:name="com.tpandroid.easyrecipe.FoodJokeFragment"
+        android:name="com.tpandroid.easyrecipe.ui.fragments.foodjoke.FoodJokeFragment"
         android:label="Food joke"
         tools:layout="@layout/fragment_food_joke" />
 </navigation>

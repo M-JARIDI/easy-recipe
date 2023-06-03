@@ -18,11 +18,18 @@ android {
         versionName "1.0"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+
+        // to retrieve environment variables
+        Properties properties = new Properties()
+        properties.load(rootProject.file("local.properties").newDataInputStream())
+
+        buildConfigField "String", "API_KEY", "\"${properties["API_KEY"]}\""
     }
 
     buildTypes {
         release {
-            minifyEnabled false
+            // to make the code unreadable before deploying the app to avoid reverse engineering for example
+            minifyEnabled true
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }

@@ -1,14 +1,15 @@
-package com.tpandroid.easyrecipe
+package com.tpandroid.easyrecipe.ui
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.core.splashscreen.SplashScreen.Companion.installSplashScreen
 import androidx.navigation.NavController
-import androidx.navigation.findNavController
 import androidx.navigation.fragment.NavHostFragment
 import androidx.navigation.ui.AppBarConfiguration
 import androidx.navigation.ui.setupActionBarWithNavController
 import androidx.navigation.ui.setupWithNavController
+import com.tpandroid.easyrecipe.BuildConfig
+import com.tpandroid.easyrecipe.R
 import com.tpandroid.easyrecipe.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
