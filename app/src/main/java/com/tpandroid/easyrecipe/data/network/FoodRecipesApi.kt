@@ -1,4 +1,4 @@
-package com.tpandroid.easyrecipe
+package com.tpandroid.easyrecipe.data.network
 
 import com.tpandroid.easyrecipe.models.FoodRecipe
 import retrofit2.Response
