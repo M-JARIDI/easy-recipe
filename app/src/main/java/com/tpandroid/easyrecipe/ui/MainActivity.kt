@@ -11,7 +11,9 @@ import androidx.navigation.ui.setupWithNavController
 import com.tpandroid.easyrecipe.BuildConfig
 import com.tpandroid.easyrecipe.R
 import com.tpandroid.easyrecipe.databinding.ActivityMainBinding
+import dagger.hilt.android.AndroidEntryPoint
 
+@AndroidEntryPoint
 class MainActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityMainBinding

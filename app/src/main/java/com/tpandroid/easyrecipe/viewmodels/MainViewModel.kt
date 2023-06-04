@@ -1,4 +1,4 @@
-package com.tpandroid.easyrecipe
+package com.tpandroid.easyrecipe.viewmodels
 
 import android.app.Application
 import android.content.Context
@@ -44,7 +44,7 @@ class MainViewModel @Inject constructor(
         }
     }
 
-    private fun handleFoodRecipesResponse(response: Response<FoodRecipe>): NetworkResult<FoodRecipe>? {
+    private fun handleFoodRecipesResponse(response: Response<FoodRecipe>): NetworkResult<FoodRecipe> {
         when {
             response.message().toString().contains("timeout") -> {
                 return NetworkResult.Error("Timeout")
